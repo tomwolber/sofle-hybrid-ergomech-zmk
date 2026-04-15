@@ -40,6 +40,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        rewww {
+            bindings = <&kp C>;
+            key-positions = <0 12>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
